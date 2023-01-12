@@ -1,0 +1,36 @@
+.list-info {
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.list-info__item {
+    width: 270px;
+    margin-left: 30px;
+    
+    &:first-child {
+        margin-left: 0;
+    }
+}
+
+.list-info__icon {
+    background-color: var(--section-team-bg-color);
+    width: 270px;
+    height: 120px;
+    padding: 25px 100px;
+    margin-bottom: 20px;
+}
+
+.list-info__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--secondory-font-color);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.list-info__text {
+    letter-spacing: 0.03em;
+}

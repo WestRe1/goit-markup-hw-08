@@ -1,0 +1,114 @@
+:root {
+    --main-light-color: #ffffff;
+    --main-font-color: #757575;
+    --secondory-font-color: #212121;
+    --accent-color: #2196f3;
+    --accent-color-hero-button: #188ce8;
+    --logo-color: #000000;
+    --border-bg-color: #2f303a;
+    --section-team-bg-color: #f5f4fa;
+    --link-footer-color: rgba(255, 255, 255, 0.6);
+    --border-color-works-list: #EEEEEE;
+    --background-color-footer-icon: rgba(255, 255, 255, 0.1);
+    --icon-color: #AFB1B8;
+    --background-color-description-work: rgba(47, 48, 58, 0.8);
+    --background-color-description-works: rgba(33, 150, 243, 0.9);
+    --background-color-backdrop: rgba(0, 0, 0, 0.2);
+    --backgrond-color-icon-db: #212121;
+    --input-border-color: rgba(33, 33, 33, 0.2);
+    --accent-color-submit-button: #2196f3;
+    --accent-second-color-submit-button: #188ce8;
+}
+
+body {
+    background-color: var(--main-light-color);
+    color: var(--main-font-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+
+    background-color: var(--section-team-bg-color);
+    color: var(--secondory-font-color);
+    cursor: pointer;
+    font-family: inherit;
+    border: 0;
+    border-radius: 4px;
+    padding: 6px 22px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+        color: var(--main-light-color);
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--secondory-font-color);
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.link {
+    color: var(--link-footer-color);
+    text-decoration: none;
+    font-style: normal;
+}
