@@ -1,24 +1,39 @@
-.list-info {
-    display: flex;
-    padding-left: 0;
-    padding-right: 0;
-}
+// .list-info {
+//     display: flex;
+//     padding-left: 0;
+//     padding-right: 0;
+// }
 
 .list-info__item {
-    width: 270px;
-    margin-left: 30px;
-    
+    width: 450px;
+    margin-bottom: 30px;
+
     &:first-child {
-        margin-left: 0;
+        margin-bottom: 0;
     }
+    
+    // width: 270px;
+    // margin-left: 30px;
+    
+    // &:first-child {
+    //     margin-left: 0;
+    // }
 }
 
 .list-info__icon {
     background-color: var(--section-team-bg-color);
-    width: 270px;
+
+    width: 450px;
+    
     height: 120px;
-    padding: 25px 100px;
-    margin-bottom: 20px;
+    padding: 25px 190px;
+    margin-bottom: 30px;
+
+    // @media screen and () {
+    // width: 270px;
+    // padding: 25px 100px;
+    // margin-bottom: 20px;
+    // }
 }
 
 .list-info__title {
@@ -26,6 +41,7 @@
     font-size: 14px;
     line-height: 1.14;
     color: var(--secondory-font-color);
+    text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 10px;
