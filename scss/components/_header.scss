@@ -2,7 +2,7 @@
     border-bottom: 1px solid #ECECEC;
 }
 .menu {
-    @media screen and (min-width: $mobile) {
+    @media screen and (max-width: 767px) {
         display: none;
     }
 
