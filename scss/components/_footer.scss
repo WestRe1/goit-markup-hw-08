@@ -80,6 +80,10 @@
 .social-networks {
     
     margin-top: 60px;
+    
+    @media screen and (max-width: 1199px) {
+            text-align: center;
+        }
     @media screen and (min-width: $tablet) and (max-width: 1199px) {
         width: 50%;
         margin-top: 0;
@@ -145,6 +149,9 @@
 
     margin-top: 60px;
 
+    @media screen and (max-width: 1199px) {
+            text-align: center;
+        }
     @media screen and (min-width: $tablet) and (max-width: 1199px) {
     width: 100%;        
     }

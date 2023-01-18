@@ -53,6 +53,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  width: 480px;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -414,7 +415,6 @@ img {
       -ms-flex-align: center;
           align-items: center;
   background-color: inherit;
-  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
 }
@@ -1187,6 +1187,11 @@ img {
 .social-networks {
   margin-top: 60px;
 }
+@media screen and (max-width: 1199px) {
+  .social-networks {
+    text-align: center;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .social-networks {
     width: 50%;
@@ -1266,6 +1271,11 @@ img {
 
 .mailing {
   margin-top: 60px;
+}
+@media screen and (max-width: 1199px) {
+  .mailing {
+    text-align: center;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .mailing {
