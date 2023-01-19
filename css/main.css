@@ -47,13 +47,14 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  width: 480px;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -521,6 +522,12 @@ img {
   padding-top: 16px;
   padding-bottom: 16px;
 }
+@media screen and (min-width: 768px) {
+  .logo-header {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .logo-header {
     padding-top: 24px;
@@ -554,10 +561,39 @@ img {
   padding-top: 118px;
   padding-bottom: 118px;
 }
+@media screen and (max-width: 767px) {
+  .hero__section {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/background-img-mobile.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background-img-mobile.jpg);
+  }
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero__section .hero__section {
+    background-image: url("../images/background-img-mobile@x2.jpg");
+  }
+}
+@media screen and (max-width: 1199px) {
+  .hero__section {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/background-img-tablet.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background-img-tablet.jpg);
+  }
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero__section .hero__section {
+    background-image: url("../images/background-img-tablet@x2.jpg");
+  }
+}
 @media screen and (min-width: 1200px) {
   .hero__section {
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/background-img.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background-img.jpg);
+  }
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero__section .hero__section {
+    background-image: url("../images/background-img@x2.jpg");
   }
 }
 
@@ -757,6 +793,8 @@ img {
 }
 
 .list-team__item {
+  width: 450px;
+  height: 100%;
   background-color: var(--main-light-color);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
