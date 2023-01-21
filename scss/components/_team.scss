@@ -19,7 +19,7 @@
 }
 
 .list-team__item {
-    width: 450px;
+    
     height: 100%;
 
     background-color: var(--main-light-color);
@@ -28,8 +28,11 @@
     border-radius: 0px 0px 4px 4px;
     
     margin-bottom: 30px;
+
     
     @media screen and (min-width: $mobile) and (max-width: 767px){
+        
+        width: 450px;
         &:last-child {
             margin-bottom: 0;
         }
