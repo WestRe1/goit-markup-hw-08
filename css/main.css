@@ -1225,7 +1225,6 @@ img {
 @media screen and (min-width: 1200px) {
   .footer {
     padding-top: 0;
-    padding-bottom: 0;
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
