@@ -18,7 +18,7 @@
 .list-info__item {
     margin-bottom: 30px;
 
-    &:first-child {
+    &:last-child {
         margin-bottom: 0;
     }
     @media screen and (min-width: $mobile) {
@@ -54,7 +54,7 @@
     align-items: center;
     justify-content: center;
     // height: 120px;
-    // padding: 25px 190px;
+    padding: 25px 0px;
     margin-bottom: 30px;
 
     @media screen and (min-width: $mobile) {
